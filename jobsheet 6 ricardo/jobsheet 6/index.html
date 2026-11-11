@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ricardo Octavio | Portofolio Web Developer</title>
+  <meta name="description" content="Portofolio digital: profil, keahlian teknis, galeri proyek, dan formulir kontak.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top site-nav" aria-label="Menu utama">
+      <div class="container">
+        <a class="navbar-brand" href="#beranda">Ricardo Octavio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuUtama" aria-controls="menuUtama" aria-expanded="false" aria-label="Buka menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuUtama">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#profil">Profil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#keahlian">Keahlian</a></li>
+            <li class="nav-item"><a class="nav-link" href="#proyek">Proyek</a></li>
+            <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO BANNER -->
+    <section id="beranda" class="hero" aria-labelledby="judul-hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-8">
+            <p class="hero-sub">Siswa SMK, calon Web Developer</p>
+            <h1 id="judul-hero">Porto<span id="textChanger">Folio</span>.</h1>
+            <p class="hero-lead">Halo, saya Ricardo Octavio. Saya belajar HTML, CSS, dan JavaScript, lalu menyusunnya menjadi situs yang nyaman dibuka di layar apa pun.</p>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="#proyek" class="btn btn-accent btn-lg">Lihat proyek</a>
+              <a href="#kontak" class="btn btn-outline-ink btn-lg">Hubungi saya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFIL + SIDEBAR -->
+    <section id="profil" class="py-5" aria-labelledby="judul-profil">
+      <div class="container">
+        <div class="row g-4">
+          <article class="col-12 col-lg-8">
+            <h2 id="judul-profil">Profil</h2>
+            <p>Saya siswa jurusan Teknik Informatika Pemrogaman yang senang mengubah desain menjadi halaman web yang berfungsi. Saya terbiasa menyusun struktur HTML semantik, mengatur tata letak dengan grid Bootstrap, dan menambahkan interaksi dengan JavaScript.</p>
+            <p>Saat ini saya sedang memperdalam desain responsif dan aksesibilitas, supaya situs yang saya buat bisa dipakai oleh lebih banyak orang.</p>
+          </article>
+          <aside class="col-12 col-lg-4" aria-label="Info singkat">
+            <div class="info-box">
+              <h3>Info singkat</h3>
+              <dl class="mb-0">
+                <dt>Sekolah</dt><dd>SMK STRADA JAKARTA</dd>
+                <dt>Kota</dt><dd>Jakarta</dd>
+                <dt>Email</dt><dd>Ricardooctqavio8@gmail.com</dd>
+                <dt>Status</dt><dd>Terbuka untuk magang</dd>
+              </dl>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEAHLIAN -->
+    <section id="keahlian" class="py-5 bg-paper-alt" aria-labelledby="judul-keahlian">
+      <div class="container">
+        <h2 id="judul-keahlian">Keahlian teknis</h2>
+        <div class="row g-4 mt-1">
+          <div class="col-12 col-md-6">
+            <ul class="list-unstyled skill-list">
+              <li>
+                <div class="d-flex justify-content-between"><span>HTML5</span><span>90%</span></div>
+                <div class="progress" role="progressbar" aria-label="HTML5" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar" style="width: 90%"></div></div>
+              </li>
+              <li>
+                <div class="d-flex justify-content-between"><span>CSS3 dan Bootstrap 5</span><span>75%</span></div>
+                <div class="progress" role="progressbar" aria-label="CSS3 dan Bootstrap 5" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar" style="width: 80%"></div></div>
+              </li>
+              <li>
+                <div class="d-flex justify-content-between"><span>JavaScript</span><span>30%</span></div>
+                <div class="progress" role="progressbar" aria-label="JavaScript" aria-valuenow="30" aria-valuemin="0" aria-valuemax="50"><div class="progress-bar" style="width: 65%"></div></div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6">
+            <h3 class="h5">Alat yang saya pakai</h3>
+            <p class="d-flex flex-wrap gap-2">
+              <span class="badge skill-badge">Git dan GitHub</span>
+              <span class="badge skill-badge">VS Code</span>
+              <span class="badge skill-badge">Figma</span>
+              <span class="badge skill-badge">Chrome DevTools</span>
+              <span class="badge skill-badge">Responsive design</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERI PROYEK -->
+    <section id="proyek" class="py-5" aria-labelledby="judul-proyek">
+      <div class="container">
+        <h2 id="judul-proyek">Galeri proyek</h2>
+        <div class="d-flex flex-wrap gap-2 my-3" role="group" aria-label="Filter kategori proyek">
+          <button type="button" class="btn btn-filter active" data-filter="semua" aria-pressed="true">Semua</button>
+          <button type="button" class="btn btn-filter" data-filter="web" aria-pressed="false">Web</button>
+          <button type="button" class="btn btn-filter" data-filter="desain" aria-pressed="false">Desain</button>
+          <button type="button" class="btn btn-filter" data-filter="latihan" aria-pressed="false">Latihan</button>
+        </div>
+        <p id="infoFilter" class="text-muted" aria-live="polite"></p>
+
+        <div class="row g-4" id="galeri">
+          <div class="col-12 col-md-6 col-lg-4 proyek-item" data-kategori="web">
+            <article class="card proyek-card h-100">
+              <div class="thumb thumb-1" role="img" aria-label="Pratinjau proyek toko online"></div>
+              <div class="card-body">
+                <h3 class="h5 card-title">Katalog Toko Online</h3>
+                <p class="card-text">Katalog produk dengan grid responsif dan penghitung keranjang.</p>
+                <span class="badge skill-badge">Web</span>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 proyek-item" data-kategori="web">
+            <article class="card proyek-card h-100">
+              <div class="thumb thumb-2" role="img" aria-label="Pratinjau proyek portal berita"></div>
+              <div class="card-body">
+                <h3 class="h5 card-title">Portal Berita Sekolah</h3>
+                <p class="card-text">Daftar berita dengan navigasi kategori dan pencarian judul.</p>
+                <span class="badge skill-badge">Web</span>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 proyek-item" data-kategori="desain">
+            <article class="card proyek-card h-100">
+              <div class="thumb thumb-3" role="img" aria-label="Pratinjau wireframe aplikasi"></div>
+              <div class="card-body">
+                <h3 class="h5 card-title">Wireframe Aplikasi Kantin</h3>
+                <p class="card-text">Rancangan alur pemesanan makanan dibuat di Figma.</p>
+                <span class="badge skill-badge">Desain</span>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 proyek-item" data-kategori="desain">
+            <article class="card proyek-card h-100">
+              <div class="thumb thumb-4" role="img" aria-label="Pratinjau desain poster"></div>
+              <div class="card-body">
+                <h3 class="h5 card-title">Poster Acara Sekolah</h3>
+                <p class="card-text">Poster digital untuk pameran karya siswa.</p>
+                <span class="badge skill-badge">Desain</span>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 proyek-item" data-kategori="latihan">
+            <article class="card proyek-card h-100">
+              <div class="thumb thumb-5" role="img" aria-label="Pratinjau latihan kalkulator"></div>
+              <div class="card-body">
+                <h3 class="h5 card-title">Kalkulator Sederhana</h3>
+                <p class="card-text">Latihan JavaScript: operasi dasar dan penanganan input.</p>
+                <span class="badge skill-badge">Latihan</span>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 proyek-item" data-kategori="latihan">
+            <article class="card proyek-card h-100">
+              <div class="thumb thumb-6" role="img" aria-label="Pratinjau latihan to-do list"></div>
+              <div class="card-body">
+                <h3 class="h5 card-title">Daftar Tugas</h3>
+                <p class="card-text">Latihan manipulasi DOM: tambah dan hapus item.</p>
+                <span class="badge skill-badge">Latihan</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="py-5 bg-paper-alt" aria-labelledby="judul-kontak">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-7">
+            <h2 id="judul-kontak">Kontak</h2>
+            <p>Punya pertanyaan atau tawaran kerja sama? Isi formulir ini dan saya akan membalas lewat email.</p>
+
+            <div id="pesanSukses" class="alert alert-success d-none" role="status"></div>
+
+            <form id="formKontak" novalidate>
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="nama" name="nama" autocomplete="name" required minlength="3">
+                <div class="invalid-feedback">Isi nama minimal 3 karakter.</div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" autocomplete="email" required>
+                <div class="invalid-feedback">Isi email dengan format yang benar, misalnya nama@email.com.</div>
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" name="pesan" rows="4" required minlength="10"></textarea>
+                <div class="invalid-feedback">Tulis pesan minimal 10 karakter.</div>
+              </div>
+              <button type="submit" class="btn btn-accent btn-lg">Kirim pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+      <p class="mb-0">&copy; <span id="tahun">2026</span> Nama Anda. Dibuat dengan HTML, Bootstrap, dan JavaScript.</p>
+      <p class="mb-0"><a href="#beranda">Kembali ke atas</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
